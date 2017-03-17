@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <title>Introduction to JavaScript</title>
+        <title>Interactive Website using JS</title>
         <meta charset="utf-8">
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <link type="text/css" rel="stylesheet" href='css/style.css'/>
+        <link rel="shortcut icon" href="#">
     </head>
     <body>
-        <div class="butons_wraper">
-            <div class="backgroundColor">
-                <!--<a href="#change_color" id="violet">fioletowy</a>
-                <a href="#change_color" id="green">zielony</a>-->
-                
-                <input type="button" value="zielony" id="green">
-                <input type="button" value="fioletowy" id="violet">
-            </div>
-            <div class="changeContent">
-                <!--<a href="#options" id="optionA"></a>
-                <a href="#options" id="optionB">naciśnij MNIE</a>-->
-                
-                <input type="button" value="OCB?" id="ocb1">
-                <input type="button" value="OCB!" id="ocb2">
-            </div>
+      <div class="menu">
+          <div class="close_ikon">
+              <img src="img/close_ikon.png" alt="Close"/>
+          </div>
+          <ul>
+            <li><a href="#menu">Opcja A</a></li>
+            <li><a href="#menu">Opcja B</a></li>
+            <li><a href="#menu">Opcja C</a></li>
+            <li><a href="#menu">Opcja D</a></li>
+          </ul>
+      </div>
+      <div class="top_wraper">
+         <div class="top_wraper_menu">
+              <img src="img/menu_ikon.png" alt="Menu"/>
+              <a href="#menu">menu</a>
+         </div> 
+      </div>
+      <div class="article_container">
+                <h3>Światło żarówki</h3>
+                <p>Światło uzyskiwane z żarówek jest światłem zbliżonym do słonecznego i cechuje się dobrym wskaźnikiem oddawania barw oglądanych w tym świetle przedmiotów, świeci cały czas jednakowo, nie powodując efektu stroboskopowego.</p> 
+                <h3>Światło żarówki</h3>
+                <p>Światło uzyskiwane z żarówek jest światłem zbliżonym do słonecznego i cechuje się dobrym wskaźnikiem oddawania barw oglądanych w tym świetle przedmiotów, świeci cały czas jednakowo, nie powodując efektu stroboskopowego.</p> 
+                <h3>Światło żarówki</h3>
+                <p>Światło uzyskiwane z żarówek jest światłem zbliżonym do słonecznego i cechuje się dobrym wskaźnikiem oddawania barw oglądanych w tym świetle przedmiotów, świeci cały czas jednakowo, nie powodując efektu stroboskopowego.</p> 
+                <h3>Światło żarówki</h3>
+                <p>Światło uzyskiwane z żarówek jest światłem zbliżonym do słonecznego i cechuje się dobrym wskaźnikiem oddawania barw oglądanych w tym świetle przedmiotów, świeci cały czas jednakowo, nie powodując efektu stroboskopowego.</p> 
+                <h3></h3>
+                <p></p> 
+                <h3></h3>
+                <p></p> 
         </div>
-        <div class="selectors_wraper">
-            <span>Kolor tła:</span>
-            <select id="background">
-              <option value="orange">Pomarańcz</option>
-              <option value="grey">Szary</option>
-              <option value="black">Czarny</option>
-            </select><span>Szerokość:</span>
-            <select id="width">
-              <option value="100px">100px</option>
-              <option value="200px">200px</option>
-              <option value="300px">300px</option>
-            </select><span>Wysokość:</span>
-            <select id="height">
-              <option value="100px">100px</option>
-              <option value="200px">200px</option>
-              <option value="300px">300px</option>
-            </select>
-            <span>Kształt:</span>
-            <select id="borderRadius">
-              <option value="100%">kolisty</option>
-              <option value="0%">kanciasty</option>
-            </select>
-        </div>
-        <div id="content" style="background:orange; width:100px; height:100px; border-radius: 100%;"></div>
-        <script
-          src="https://code.jquery.com/jquery-3.1.1.min.js"
-          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="     
-          crossorigin="anonymous"></script> 
-       <script type="text/javascript" src="js/Introduction_to_JavaScript.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>

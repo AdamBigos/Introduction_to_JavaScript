@@ -1,66 +1,104 @@
-body{
-    background-color: cornflowerblue;
-    text-align: center;
-    margin: 0 auto;
+body {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/background.jpg)
 }
 
-/*a{
+.menu {
+    width: 556px;
+    height: 28px;
+    margin: 10px auto;
+    display: none;
+}
+
+.close_ikon {
     float: left;
-    display: block;
-    line-height: 90px;
-    width: 400px;
-    height: 90px;
-    background-color: aliceblue;
-    color: black;
+    margin: 3px 10px;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0px;
     padding: 0px;
-    border: 3px solid white;
-    text-decoration: none;
-    margin: 30px;
-    text-align: center;
-    font-size: 4em;
-    border-radius: 30px;
-}*/
-
-.butons_wraper{
-    width: 932px;
-    padding: 160px;
-    margin: 0 auto;
 }
 
-input{
-    float: left;
-    display: block;
-    line-height: 90px;
-    width: 400px;
-    height: 90px;
-    background-color: aliceblue;
-    color: black;
+.menu img {
     padding: 0px;
-    border: 3px solid white;
-    text-decoration: none;
-    margin: 30px;
+    margin: 0px;
+    width: 1em;
+}
+
+.menu li {
+    border: 2px solid #aaa;
+    display: inline-block;
+    width: 123px;
+    border-radius: 10px;
     text-align: center;
-    font-size: 4em;
-    border-radius: 30px;
+    background: #aaa;
 }
 
-span{
-    font-size: 1.5em;
+.menu li a {
+    text-decoration: none;
+    font-size: 1,5em;
+    font-family: 'Sintony', sans-serif;
+    text-transform: uppercase;
+    color: aliceblue;
 }
 
-select{
-    font-size: 2em;
+.top_wraper {
+    background: rgba(128, 128, 128, 0.9);
+    cursor: pointer;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.selectors_wraper{
-    clear: left;
-    margin: 60px 0px;
+.top_wraper_menu{
+    width: 555px;
+    margin: 0px auto;
+    padding: 0px;
 }
 
-#content {
-    margin: 0 auto;
+.top_wraper img {
+    height: 16px;
+    margin: auto 10px;
+    padding: 0px;    
 }
 
-h2{
-    color: white;
+.top_wraper a{
+    font-size: 1em;
+    line-height: 30px;
+    color: aliceblue;
+    padding: 0px;
+    margin: auto;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+
+.current {
+    background: rgba(200, 200, 30, 0.9);    
+}
+
+.article_container {
+    width: 700px;
+    margin: 50px auto;
+    background: rgba(240, 240, 240, 0.9);
+}
+
+h3 {
+    text-align: center;
+    cursor: pointer;
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+p {
+    text-align: center;
+    padding:  10px;
+    display: none;
+}
+
